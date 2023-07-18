@@ -37,7 +37,6 @@ mvn spring-boot:run
 ```
 - inventory
 ```
- http :8088/inventories id="id" stock="stock" 
 ```
 
 

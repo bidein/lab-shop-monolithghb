@@ -8,8 +8,6 @@ Vue.use(Router);
 import MonolithOrderManager from "./components/listers/MonolithOrderCards"
 import MonolithOrderDetail from "./components/listers/MonolithOrderDetail"
 
-import InventoryInventoryManager from "./components/listers/InventoryInventoryCards"
-import InventoryInventoryDetail from "./components/listers/InventoryInventoryDetail"
 
 
 export default new Router({
@@ -27,16 +25,6 @@ export default new Router({
                 component: MonolithOrderDetail
             },
 
-            {
-                path: '/inventories/inventories',
-                name: 'InventoryInventoryManager',
-                component: InventoryInventoryManager
-            },
-            {
-                path: '/inventories/inventories/:id',
-                name: 'InventoryInventoryDetail',
-                component: InventoryInventoryDetail
-            },
 
 
 

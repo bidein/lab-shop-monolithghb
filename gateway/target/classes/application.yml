@@ -15,7 +15,7 @@ spring:
         - id: inventory
           uri: http://localhost:0
           predicates:
-            - Path=/inventories/**, 
+            - Path=, 
         - id: frontend
           uri: http://localhost:8080
           predicates:
@@ -46,7 +46,7 @@ spring:
         - id: inventory
           uri: http://inventory:8080
           predicates:
-            - Path=/inventories/**, 
+            - Path=, 
         - id: frontend
           uri: http://frontend:8080
           predicates:
